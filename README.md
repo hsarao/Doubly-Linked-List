@@ -2,12 +2,12 @@
  A c# console application implementing linked lists methods and unit testing those.
 
 Employee Class
-•	Contains data to be manipulated by the linked list
-•	Must contain an Employee ID number (an employee cannot be created without one).
-•	First and Last Name: Either both names will be provided or neither will be provided.
-•	Once created, employee fields cannot be changed.
-•	Must implement the Comparable interface. The comparison of employees is based on the EmployeeID.
-•	When printed, an employee will appear as ‘id fname lname’ (e.g. ‘6782342 John Doe’ or ‘77853224 null null’).
+Contains data to be manipulated by the linked list
+Must contain an Employee ID number (an employee cannot be created without one)
+First and Last Name: Either both names will be provided or neither will be provided.
+Once created, employee fields cannot be changed
+Must implement the Comparable interface. The comparison of employees is based on the EmployeeID.
+When printed, an employee will appear as ‘id fname lname’ (e.g. ‘6782342 John Doe’ or ‘77853224 null null’).
 	
 Public Method Name	    Description
 Employee(employeeId)	  Constructor, initializes only the employeeID, but sets the other fields to null
